@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(newimg.webp); 
+    background-attachment: fixed;
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+header{
+    background-image: url(image.jpg);
+    background-attachment: fixed;
+    color: rgb(61, 50, 50);
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    margin: 0;
+
+}
+h2{
+    color: rgb(8, 8, 8);
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav{
+    
+    background-size: cover;
+    background-position: center;
+    color: rgb(17, 16, 15);
+    text-align: center;
+    padding: 100px 50px;
+}
+nav a{
+    color: rgb(218, 184, 184);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(104, 83, 46);
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: rgb(189, 184, 177);
+
+}
+.content-section{
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.color-box{
+    background-color: rgb(18, 16, 16);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+/* Selectors Example*/
+.title{
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+}
+#home-page{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: #090707;
+}
+/*blog text and font*/
+.blog{
+    font-family: 'Times New Roman';
+    font-size:16px ;
+    border: 2px solid rgb(9, 9, 7);
+    margin: 20px auto;
+    background-image: url(berry.jpeg);
+    padding: 20px;
+    width: 300px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 100px;
+    text-align: center;
+    color: #131313;
+    border-radius: 8px;
+}
+/*design*/
+.design{
+    margin: 20px auto;
+    padding: 20px;
+    color: rgb(21, 21, 22);
+    font-style: bold;
+    text-align: center;
+    
+}
+
+
+/*about styling*/
+.about{
+    display: flex;
+    justify: center;
+    align-items: center;
+    border: #eac7c7;
+    border-radius: 200px;
+    background-color: #c3a1a1;
+    color: #090707;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(13, 14, 14) ;
+    position: center;
+    top: 10px;
+    bottom: 20px;
+}
+/*footer styling*/
+footer{
+    background-color: #333;
+    color: beige;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/*responsive design*/
+@media (max-width: 768px){
+    h1{
+        font-size: 36px;
+}
+nav{
+    flex-direction: column;
+}
+nav a{
+    max-resolution: 5px 0;
+}
+}
+@media (max-width: 480px){
+    h1{
+        font-size: 28px;
+    }
+    .about{
+        width: 90%;
+        padding: 10px;
+    }
+}
